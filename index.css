@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #ffff;
+}
+body {
+  background-image: url(https://images.unsplash.com/photo-1432889490240-84df33d47091?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 80%;
+  height: 80vh;
+  background-color: rgba(240, 248, 255, 0.267);
+  border-radius: 30px;
+}
+.searchbox {
+  background-color: black;
+  width: 196px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 30px;
+  margin: 30px;
+  padding: 5px;
+  border-radius: 20px;
+  gap: 8px;
+}
+.searchbox:hover {
+  transform: scale(1.1);
+}
+.inputSearch {
+  background-color: black;
+  border: none;
+  outline: none;
+  margin-left: 2px;
+}
+.icon {
+  color: #ffff;
+}
+.main-Info {
+  background-color: rgba(240, 248, 255, 0.511);
+  width:360px;
+  height:520px;
+  transform: translate(220%, -11%);
+  text-align: center;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.stateName {
+  color: black;
+  font-size:34px;
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-top:10px;
+  height: 40px; 
+}
+.time {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.extra-info {
+  /* background-color: rgba(240, 248, 255, 0.511); */
+  width: 30%;
+  height: 80%;
+  transform: translate(10%, -104%);
+  text-align: center;
+  color: black;
+}
+.extra-infoA {
+  background-color: rgba(240, 248, 255, 0.511);
+  width: 390px;
+  height: 60px;
+  border-radius: 30px;
+  margin: 30px 0 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.extra-infoA:hover {
+  transform: scale(1.1);
+}
+.icon-info {
+  margin-left: 20px;
+}
+.info {
+  font-size: 20px;
+  text-align: center;
+}
+.myicon {
+  color: black;
+  font-size: 25px;
+}
+.p {
+  color: black;
+}
+.myp {
+  color: black;
+  text-align: center;
+}
+.max-min {
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  flex-direction: row;
+  margin-top: 40px;
+}
+.min-temp {
+  background-color: rgb(229, 232, 234);
+  width: 80px;
+  border-radius: 30px;
+  padding:13px;
+}
+.max-temp {
+  background-color: rgb(229, 232, 234);
+  width: 80px;
+  border-radius: 30px;
+  padding:13px;
+}
+.temp{
+    font-size:40px;
+}
+.weather-forecast{
+    margin-top:10px;
+    background-color: black;
+    width:65px;
+    height:20px;
+    text-align: center;
+    border-radius:20px;
+    padding:10px;
+    transform: translate(170%,40%);
+}
+.icon-weather-forecast{
+  color: black;
+  font-size:28px;
+}
+
+@media only screen and (max-width: 480px) {
+.container{
+  width:90%;
+  height:90vh;
+  /* background-color: rgba(240, 248, 255, 0.511); */
+  padding:10px;
+}
+.main-Info{
+  transform:translate(8%,8%);
+ }
+
+ .extra-info{
+  transform:translate(9%,17%);
+ }
+
+ .searchbox{
+  width:90%;
+  transform:translate(-3%,0%);
+ }
+}
+
+

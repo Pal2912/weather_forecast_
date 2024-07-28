@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <div class="searchbox">
+        <form class="formtosearchbar">
+          <input type="text" placeholder="search your city..." class="inputSearch" />
+          <i class="fa-solid fa-magnifying-glass icon"></i>
+        </form>
+      </div>
+      <div class="main-Info">
+        <h3 class="stateName"></h3>
+        <p class="time"></p>
+        <p class="weather-forecast">cloud</p>
+        <div class="icon-weather-forecast"></div>
+        <p class="temp myp"></p>
+        <div class="max-min">
+          <p class="min-temp myp"></p>
+          <p class="max-temp myp"></p>
+        </div>
+      </div>
+      <div class="extra-info">
+        <div class="extra-infoA temprature">
+          <div class="icon-info">
+            <i class="fa-solid fa-temperature-three-quarters myicon"></i>
+          </div>
+          <div class="info">
+            <p class="p">Feels Like</p>
+            <p class="p" id="Feels-Like">215&#176</p>
+          </div>
+        </div>
+
+        <div class="extra-infoA humidity">
+          <div class="icon-info">
+            <i class="fa-solid fa-droplet myicon"></i>
+          </div>
+          <div class="info">
+            <p class="p">Humidity</p>
+            <p class="p" id="Humidity">89%</p>
+          </div>
+        </div>
+
+
+        <div class="extra-infoA wind">
+          <div class="icon-info">
+            <i class="fa-solid fa-wind myicon"></i>
+          </div>
+          <div class="info">
+            <p class="p">Wind</p>
+            <p class="p" id="Wind">3.14 m/s</p>
+          </div>
+        </div>
+
+
+        <div class="extra-infoA pressure">
+          <div class="icon-info">
+            <i class="fa-solid fa-circle-half-stroke myicon"></i>
+          </div>
+          <div class="info">
+            <p class="p">Pressure</p>
+            <p class="p" id="Pressure">983 hPa</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- java script -->
+    <script src="index.css"></script>
+    <!-- java script -->
+  </body>
+</html>
